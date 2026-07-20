@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#f0abfc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" rx="56" fill="url(#bg)"/>
+  <rect width="400" height="400" rx="56" fill="url(#glow)"/>
+
+  <!-- Barres d'égaliseur -->
+  <g>
+    <rect x="90"  y="230" width="26" height="90"  rx="10" fill="url(#bars)"/>
+    <rect x="132" y="190" width="26" height="130" rx="10" fill="url(#bars)"/>
+    <rect x="174" y="150" width="26" height="170" rx="10" fill="url(#bars)"/>
+    <rect x="216" y="180" width="26" height="140" rx="10" fill="url(#bars)"/>
+    <rect x="258" y="210" width="26" height="110" rx="10" fill="url(#bars)"/>
+  </g>
+
+  <!-- Étincelle "recommandation" -->
+  <g fill="#fde68a">
+    <path d="M 292 96 L 300 116 L 320 124 L 300 132 L 292 152 L 284 132 L 264 124 L 284 116 Z"/>
+  </g>
+  <circle cx="118" cy="108" r="6" fill="#fde68a" opacity="0.85"/>
+</svg>
