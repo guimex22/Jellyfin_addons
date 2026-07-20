@@ -1,0 +1,20 @@
+[
+  {
+    "guid": "8f2b1c4a-3e5d-4a1b-9c7f-2d6e8a9b0c1d",
+    "name": "Reco Engine",
+    "description": "Moteur de recommandation musicale basé sur l'analyse audio (mood/danceability) et l'historique d'écoute.",
+    "overview": "Recommandations musicales personnalisées : similarité audio, moods prédéfinis, contexte horaire, découverte.",
+    "owner": "guimex22",
+    "category": "General",
+    "versions": [
+      {
+        "version": "0.1.0",
+        "changelog": "Release v0.1.0",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/guimex22/Jellyfin_addons/releases/download/v0.1.0/JellyfinRecoPlugin_0.1.0.zip",
+        "checksum": "8c53ac7e472055219e9b145731497c4b",
+        "timestamp": "2026-07-20T06:50:18Z"
+      }
+    ]
+  }
+]
