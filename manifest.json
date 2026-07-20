@@ -12,8 +12,8 @@
         "changelog": "Release v0.1.0",
         "targetAbi": "10.11.11.0",
         "sourceUrl": "https://github.com/guimex22/Jellyfin_addons/releases/download/v0.1.0/JellyfinRecoPlugin_0.1.0.zip",
-        "checksum": "8c53ac7e472055219e9b145731497c4b",
-        "timestamp": "2026-07-20T06:50:18Z"
+        "checksum": "cd15a31a56a7fd683570f76dbf567766",
+        "timestamp": "2026-07-20T06:56:23Z"
       }
     ]
   }
