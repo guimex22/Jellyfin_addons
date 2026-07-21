@@ -8,6 +8,14 @@
     "category": "Music",
     "versions": [
       {
+        "version": "0.1.18.0",
+        "changelog": "Release v0.1.18",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/guimex22/Jellyfin_addons/releases/download/v0.1.18/JellyfinRecoPlugin_0.1.18.0.zip",
+        "checksum": "fb410d06f08ef702299f6cb8760737ee",
+        "timestamp": "2026-07-21T06:34:11Z"
+      },
+      {
         "version": "0.1.16.0",
         "changelog": "Release v0.1.16",
         "targetAbi": "10.11.11.0",
